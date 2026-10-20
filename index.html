@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Muhammad Aiman Hakim Bin Yusri Sham, Network Computing student.">
+    <title>Aiman Hakim | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">AIMAN<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button id="themeToggle" class="theme-btn"
+                    aria-label="Toggle colour theme">☀</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span class="accent">Aiman Hakim.</span></h1>
+
+            <h2>I'm a <span id="typing">Network Computing Student</span></h2>
+
+            <p class="hero-description">
+                I am passionate about technology, programming, and building
+                practical digital solutions. Explore my journey, skills,
+                and projects.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+            <div class="social-text">
+                HTML <span>•</span> CSS <span>•</span> JavaScript
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Who am I?</h3>
+                    <p>
+                        My name is Muhammad Aiman Hakim Bin Yusri Sham.
+                        I am a Network Computing student interested in
+                        software development, computer systems, databases,
+                        and modern web technologies.
+                    </p>
+                    <p>
+                        I enjoy learning through hands-on projects and
+                        improving my technical and problem-solving skills.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3>My Skills</h3>
+                    <div class="skill-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>C / C++</span>
+                        <span>SQL</span>
+                        <span>PHP</span>
+                        <span>Database Design</span>
+                        <span>Networking</span>
+                    </div>
+                    <p class="small-note">
+                        Skills listed here reflect areas of study and practice.
+                        Update them to match your actual experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+            <h2 class="section-title">My <span class="accent">Projects</span></h2>
+            <p class="section-description">
+                A selection of my academic and personal projects.
+            </p>
+
+            <div class="filters" aria-label="Filter projects">
+                <button class="filter-btn selected" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="ui">UI / UX</button>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card" data-category="web">
+                    <span class="project-number">01 / WEB</span>
+                    <h3>FitLife Wellness Centre</h3>
+                    <p>
+                        A wellness centre management system concept for
+                        managing members, trainers, programs, enrollments,
+                        and payments.
+                    </p>
+                    <div class="tags"><span>PHP</span><span>SQL</span><span>HTML/CSS</span></div>
+                </article>
+
+                <article class="project-card" data-category="ui">
+                    <span class="project-number">02 / UI</span>
+                    <h3>EV Car Dashboard</h3>
+                    <p>
+                        A dashboard interface concept featuring vehicle
+                        information, climate controls, maps, and music.
+                    </p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <span class="project-number">03 / WEB</span>
+                    <h3>Hotel Management System</h3>
+                    <p>
+                        A proposed system for organising hotel rooms,
+                        reservations, customer records, and payments.
+                    </p>
+                    <div class="tags"><span>Database</span><span>SQL</span><span>Web</span></div>
+                </article>
+
+                <article class="project-card" data-category="software">
+                    <span class="project-number">04 / SOFTWARE</span>
+                    <h3>CPU Scheduler Simulator</h3>
+                    <p>
+                        A Round Robin scheduling simulation comparing
+                        different time quantum values and process metrics.
+                    </p>
+                    <div class="tags"><span>C++</span><span>Algorithms</span></div>
+                </article>
+
+                <article class="project-card" data-category="software">
+                    <span class="project-number">05 / SOFTWARE</span>
+                    <h3>Borneo Aquaria Ticketing System</h3>
+                    <p>
+                        A C programming project concept for managing
+                        ticket information and transactions.
+                    </p>
+                    <div class="tags"><span>C</span><span>File Handling</span></div>
+                </article>
+            </div>
+            <p class="small-note">
+                Replace project descriptions with your actual work and add
+                project links when available.
+            </p>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+            <p class="section-description">
+                Have a question or want to discuss a project? Send me a message.
+            </p>
+
+            <form id="contactForm" class="contact-form">
+                <label for="name">Your name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Your email</label>
+                <input type="email" id="email" placeholder="you@example.com" required>
+
+                <label for="message">Your message</label>
+                <textarea id="message" rows="5"
+                          placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">Validate Message ↗</button>
+                <p id="formFeedback" class="form-feedback" aria-live="polite"></p>
+                <p class="small-note">
+                    Demo form: this validates your message in the browser but
+                    does not send or store it.
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Muhammad Aiman Hakim Bin Yusri Sham.</p>
+        <button id="backToTop" class="back-to-top">Back to top ↑</button>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
